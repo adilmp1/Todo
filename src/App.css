@@ -1,38 +1,63 @@
-.App {
+*{
+  background-color: rgb(28, 80, 80);  
+}
+h2{
   text-align: center;
+  font-size: 40px;
+  height: 100%;
+  color: rgb(184, 222, 255);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-class
+{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.todo-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: #46808C;
+  padding: 3% 8%;
+  border-radius: 10px;
+}
+.add-todo
+{
+  background-color: #46808C;
+  display: flex;
+}
+
+.todo-box input[type='text']
+{
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.todo-box input[type='button']
+{
+  width: 70px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #B7ACAC;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.basic-button
+{
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #B7ACAC;
+  color: white;
+  margin-right: 10px;
 }

@@ -1,0 +1,28 @@
+.todo-text
+{
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-around;
+    padding: 8px 0px;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.todo-text-new
+{
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-around;
+    padding: 8px 0px;
+    background-color: rgb(203, 203, 255);
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.done-delete
+{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
